@@ -1,0 +1,51 @@
+header {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+.info {
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.tiles{
+    margin-top: 2rem;
+    margin: auto;
+    
+    width: 50%;
+    height: 38.5rem;
+    border: 3px solid green;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large; 
+}
+
+.letters{
+    justify-content: center;
+    float: left;
+    width: 22%;
+    margin-left: 8%;
+    height: 4rem;
+    margin-bottom: 0.5rem;
+    border: 3px solid green;
+    font-size: 3rem;
+}
+
+.confetti{
+    height: 0;
+    max-width: 640px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    user-select: none;
+ }
