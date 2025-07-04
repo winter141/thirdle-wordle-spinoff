@@ -5,117 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Thirdle</title>
+    <title>WORDLE UNLIMITED</title>
 </head>
 <body>
     
-    <header>THIRDLE</header>
-    <div class="info">
-        Welcome to thirdle!
-    </div>
-    <!-- <canvas class="confetti" id="canvas"></canvas> -->
-
-    <div class="tiles">
-        <div class="guess" id=1>
-            <div class="letters" type=1>
-                
-            </div>
-            <div class="letters" type=2>
-                
-            </div>
-            <div class="letters" type=3>
-                
-            </div>
-        </div>
-
-        <div class="guess" id=2>
-            <div class="letters" type=1>
-                
-            </div>
-            <div class="letters" type=2>
-                
-            </div>
-            <div class="letters" type=3>
-                
-            </div>
-        </div>
-
-        <div class="guess" id=3>
-            <div class="letters" type=1>
-                
-            </div>
-            <div class="letters" type=2>
-                
-            </div>
-            <div class="letters" type=3>
-                
-            </div>
-        </div>
-
-        <div class="guess" id=4>
-            <div class="letters" type=1>
-                
-            </div>
-            <div class="letters" type=2>
-                
-            </div>
-            <div class="letters" type=3>
-                
-            </div>
-        </div>
-
-        <div class="guess" id=5>
-            <div class="letters" type=1>
-                
-            </div>
-            <div class="letters" type=2>
-                
-            </div>
-            <div class="letters" type=3>
-                
-            </div>
-        </div>
-
-        <div class="guess" id=6>
-            <div class="letters" type=1>
-                
-            </div>
-            <div class="letters" type=2>
-                
-            </div>
-            <div class="letters" type=3>
-                
-            </div>
-        </div>
-
-        <div class="guess" id=7>
-            <div class="letters" type=1>
-                
-            </div>
-            <div class="letters" type=2>
-                
-            </div>
-            <div class="letters" type=3>
-                
-            </div>
-        </div>
-
-        <div class="guess" id=8>
-            <div class="letters" type=1>
-                
-            </div>
-            <div class="letters" type=2>
-                
-            </div>
-            <div class="letters" type=3>
-                
-            </div>
-        </div>
+    <header>WORDLE UNLIMITED</header>
+    <div id="info-box">
+        Welcome to WORDLE UNLIMITED!
     </div>
 
-    <div class="keyboard">
-
-    </div>
+    <!-- 
+    - Update guesses with data-guesses,
+    - Update word length setting class to len-3, len-4, len-5, len-6, len-7
+     -->
+    <div id="tiles" data-guesses="7" class="len-4"></div>
 
     <script type="text/javascript" src="script.js"></script>
 </body>
